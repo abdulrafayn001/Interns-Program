@@ -1,0 +1,79 @@
+body {
+  background-color: #589ed9;
+}
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+header .logo .fa-robot {
+  font-size: 30px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+#loginform #containerfields {
+  background-color: #fff;
+
+  border-radius: 10px;
+}
+
+#loginform #containerfields input[type="email"],
+input[type="password"] {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  outline: none;
+  background: #fff;
+  border: none;
+  text-indent: 20px;
+  border-radius: 10px;
+}
+
+#loginform #containerfields input[type="password"] {
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+}
+
+#loginform input[type="button"] {
+  width: 100%;
+  background-color: #2186d4;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+#loginform input[type="button"]:hover {
+  background-color: #1c6cb4;
+}
+
+footer p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
